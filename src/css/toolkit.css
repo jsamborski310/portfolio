@@ -1,0 +1,30 @@
+.toolkit__container {
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.toolkit__container .row {
+    align-items: center;
+}
+
+.toolkit__title h1 {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.toolkit__subtitle h3 {
+    text-align:center;
+}
+
+.toolkit__icon-container {
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+

@@ -12,3 +12,24 @@
 body {
   background-color: black;
 }
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+h1 {
+  color:#ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 8rem;
+  text-transform: lowercase;
+}
+
+h3 {
+  color:#ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: lowercase;
+  letter-spacing: 0.2em;
+}
