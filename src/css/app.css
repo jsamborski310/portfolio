@@ -1,0 +1,14 @@
+@import-normalize;
+@import 'about.css';
+@import 'contact.css';
+@import 'font.css';
+@import 'header.css';
+@import 'personalProjects.css';
+@import 'sidebar.css';
+@import 'toolkit.css';
+@import 'wordSlide.css';
+
+
+body {
+  background-color: black;
+}
