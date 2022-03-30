@@ -13,7 +13,7 @@ export default function Toolkit() {
         />
       </div>
 
-      <div className="row">
+      <div className="row toolkit__row">
         <div className="col col-12 col-lg-3 col-md-3 col-sm-12 toolkit__title">
           <h1>Toolkit</h1>
         </div>
