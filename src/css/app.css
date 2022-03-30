@@ -18,7 +18,10 @@ body {
 
 p {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
+  color: #dfdfdf;
+  font-weight:300;
+  line-height:1.7em;
 }
 h1 {
   color:#ffffff;
@@ -35,4 +38,33 @@ h3 {
   font-size: 1rem;
   text-transform: lowercase;
   letter-spacing: 0.2em;
+}
+
+.primary-button__container {
+  display:flex;
+  gap:20px;
+  align-items: center;
+}
+
+.primary-button__line {
+  width: 60px;
+  height: 10px;
+  color: #ffffff;
+  opacity: 100%;
+
+}
+
+.primary-button {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-transform: lowercase;
+  letter-spacing: 0.2em;
+  border-radius:0;
+  border: 1px solid #ffffff;
+  padding: 10px 15px;
+  min-width:180px;
+  text-align: left;
 }

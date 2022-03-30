@@ -1,13 +1,16 @@
 import React from "react";
 import toolkitIcons from "../data/toolkit.json";
 
-
 export default function Toolkit() {
   return (
     <div className="toolkit__container">
-
-       <div className="toolkit__abstract-image-left-angle">
-            <img src="/images/box-angle.png" alt="Corner lines." width="150px" height="auto"/>
+      <div className="toolkit__abstract-image-left-angle">
+        <img
+          src="/images/box-angle.png"
+          alt="Corner lines."
+          width="150px"
+          height="auto"
+        />
       </div>
 
       <div className="row">
@@ -25,18 +28,26 @@ export default function Toolkit() {
               <img src={image} alt={altText} width="auto" height="50px" />
             </div>
           ))}
-
         </div>
       </div>
 
       <div className="toolkit__abstract-image-right-angle">
-            <img src="/images/box-angle-right.png" alt="Corner lines." width="150px" height="auto"/>
+        <img
+          src="/images/box-angle-right.png"
+          alt="Corner lines."
+          width="150px"
+          height="auto"
+        />
       </div>
 
       <div className="toolkit__abstract-image-box">
-        <img src="/images/boxed-angled-lines.png" alt="Abstract box with repeated lines angled." width="400px" height="400px"/>
+        <img
+          src="/images/boxed-angled-lines.png"
+          alt="Abstract box with repeated lines angled."
+          width="400px"
+          height="400px"
+        />
       </div>
-
     </div>
   );
 }

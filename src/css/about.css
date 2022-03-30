@@ -1,0 +1,16 @@
+.about__container {
+    height: 100vh;
+    padding: 70px;
+    display: flex;
+    background-image: url("/public/images/abstract-gridLines.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+.about__row {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+

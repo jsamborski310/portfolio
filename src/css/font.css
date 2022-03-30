@@ -4,6 +4,14 @@
     font-weight: 900;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+  }
+
   @font-face {
     font-family: Poppins;
     src: url('../fonts/Poppins-Regular.ttf') format('ttf');
