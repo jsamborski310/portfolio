@@ -1,16 +1,37 @@
 .about__container {
     height: 100vh;
     padding: 70px;
-    display: flex;
-    background-image: url("/public/images/abstract-gridLines.png");
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
+    position:relative;
+}
+.about__container-background img {
+    position: absolute;
+    height:90vh;
+    width: 90%;
+    opacity: 70%
 }
 .about__row {
     display:flex;
     align-items: center;
     justify-content: center;
     gap:50px;
+    width:100%;
 }
 
+.primary-button__container {
+    margin-top: 50px;
+    margin-left: -80px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:768px) {
+    .about__container {
+        height: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:968px) {
+    .about__row {
+        align-items: flex-start;
+    }
+}

@@ -47,11 +47,11 @@
 /* MEDIA QUERIES */
 
 @media (max-width:968px) {
-    .toolkit__icon-container {
-        grid-template-columns: repeat(4, auto);
-    }
     .toolkit__container {
         justify-content: normal;
+    }
+    .toolkit__icon-container {
+        grid-template-columns: repeat(4, auto);
     }
     .toolkit__container .col {
         width:100%;
