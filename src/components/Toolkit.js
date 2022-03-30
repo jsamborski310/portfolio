@@ -1,28 +1,42 @@
 import React from "react";
 import toolkitIcons from "../data/toolkit.json";
 
+
 export default function Toolkit() {
   return (
     <div className="toolkit__container">
+
+       <div className="toolkit__abstract-image-left-angle">
+            <img src="/images/box-angle.png" alt="Corner lines." width="150px" height="auto"/>
+      </div>
+
       <div className="row">
-        <div className="col col-3 toolkit__title">
+        <div className="col col-12 col-lg-3 col-md-3 col-sm-12 toolkit__title">
           <h1>Toolkit</h1>
         </div>
 
-        <div className="col col-2 toolkit__subtitle">
-            <h3>Experience</h3>
+        <div className="col col-12 col-lg-2 col-md-2 col-sm-12 toolkit__subtitle">
+          <h3>Experience</h3>
         </div>
 
-        
-          <div className="col col-7 toolkit__icon-container">
-            {toolkitIcons.map(({ id, altText, image }) => (
-              <div key={id}>
-                <img src={image} alt={altText} width="auto" height="50px" />
-              </div>
-            ))}
-          </div>
+        <div className="col col-12 col-lg-7 col-md-7 col-sm-12 toolkit__icon-container">
+          {toolkitIcons.map(({ id, altText, image }) => (
+            <div key={id}>
+              <img src={image} alt={altText} width="auto" height="50px" />
+            </div>
+          ))}
+
         </div>
       </div>
-   
+
+      <div className="toolkit__abstract-image-right-angle">
+            <img src="/images/box-angle-right.png" alt="Corner lines." width="150px" height="auto"/>
+      </div>
+
+      <div className="toolkit__abstract-image-box">
+        <img src="/images/boxed-angled-lines.png" alt="Abstract box with repeated lines angled." width="400px" height="400px"/>
+      </div>
+
+    </div>
   );
 }

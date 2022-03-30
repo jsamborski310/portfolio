@@ -3,90 +3,90 @@
     "id": 1,
     "title": "WordPress",
     "altText": "WordPress Icon",
-    "image": "./images/wordpress.png"
+    "image": "./icons/wordpress.png"
   },
   {
     "id": 2,
     "title": "HTML",
     "altText": "HTML Icon",
-    "image": "./images/html.png"
+    "image": "./icons/html.png"
   },
   {
     "id": 3,
     "title": "CSS",
     "altText": "CSS Icon",
-    "image": "./images/CSS3.png"
+    "image": "./icons/CSS3.png"
   },
   {
     "id": 4,
     "title": "Bootstrap",
     "altText": "Bootstrap Icon",
-    "image": "./images/bootstrap.png"
+    "image": "./icons/bootstrap.png"
   },
   {
     "id": 5,
     "title": "Github",
     "altText": "Github Icon",
-    "image": "./images/github.png"
+    "image": "./icons/github.png"
   },
   {
     "id": 6,
     "title": "React",
     "altText": "React Icon",
-    "image": "./images/react.png"
+    "image": "./icons/react.png"
   },
   {
     "id": 7,
     "title": "Adobe XD",
     "altText": "Adobe XD Icon",
-    "image": "./images/AdobeXD.png"
+    "image": "./icons/AdobeXD.png"
   },
   {
     "id": 8,
     "title": "Adobe Illustrator",
     "altText": "Adobe Illustrator Icon",
-    "image": "./images/AdobeIllustrator.png"
+    "image": "./icons/AdobeIllustrator.png"
   },
   {
     "id": 9,
     "title": "Adobe Photoshop",
     "altText": "Adobe Photoshop Icon",
-    "image": "./images/AdobePhotoshop.png"
+    "image": "./icons/AdobePhotoshop.png"
   },
   {
     "id": 10,
     "title": "Adobe InDesign",
     "altText": "Adobe InDesign Icon",
-    "image": "./images/AdobeIndesign.png"
+    "image": "./icons/AdobeIndesign.png"
   },
   {
     "id": 11,
     "title": "JavaScript",
     "altText": "JavaScript Icon",
-    "image": "./images/javascript.png"
+    "image": "./icons/javascript.png"
   },
   {
     "id": 12,
     "title": "Node JS",
     "altText": "Node JS Icon",
-    "image": "./images/nodejs.png"
+    "image": "./icons/nodejs.png"
   },
   {
     "id": 13,
     "title": "Express JS",
     "altText": "Express JS Icon",
-    "image": "./images/expressjs.png"
+    "image": "./icons/expressjs.png"
   },
   {
     "id": 14,
     "title": "MySQL",
     "altText": "MySQL Icon",
-    "image": "./images/mysql.png"
+    "image": "./icons/mysql.png"
   },
   {
     "id": 15,
     "title": "Mongo DB",
     "altText": "Mongo DB Icon",
-    "image": "./images/mongoDB.png"
+    "image": "./icons/mongoDB.png"
   }
 ]
