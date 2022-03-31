@@ -1,0 +1,49 @@
+.contact__container {
+    height: 100vh;
+    padding: 70px;
+    position:relative;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.contact__container-background img {
+    position: absolute;
+    height:90vh;
+    width: 90%;
+    opacity: 70%
+}
+.contact__statement {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact__info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 60px;
+    margin-top: 40px;
+    margin-left:20%;
+}
+.contact__info p,
+.contact__info h4 {
+    color:black;
+}
+.contact__email {
+    display: inline-flex;
+    align-items: center;
+}
+.contact__email p {
+    padding-left: 20px;
+    margin-bottom:0;
+}
+.contact__home-footer {
+    background-color: #ffffff;
+    position: absolute;
+    bottom:0
+}
+.contact__home-footer p {
+    color: #000000;
+    padding: 10px 30px 0px
+}

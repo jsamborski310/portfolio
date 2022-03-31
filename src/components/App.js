@@ -3,6 +3,7 @@ import Toolkit from "./Toolkit";
 import About from "./About"
 import PersonalProjects from './PersonalProjects'
 import '../css/app.css'
+import Contact from "./Contact";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <About/>
       <Toolkit/>
       <PersonalProjects/>
+      <Contact/>
     </div>
   );
 }

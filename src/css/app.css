@@ -35,6 +35,13 @@ h1 {
   font-size: 8rem;
   text-transform: lowercase;
 }
+h2 {
+  color:#ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  text-transform: lowercase;
+}
 
 /* Button, subtitle font. */
 h3 {
