@@ -13,13 +13,31 @@ export default function Contact() {
         />
       </div>
 
+      <img
+          src="/images/email-add-white.png"
+          alt="Abstract lined envelope with plus."
+          className='contact__image-envelope'
+          height="280px"
+        />
+
+        <img
+          src="/images/abstract-boxes-doublerow.png"
+          alt="Abstract lined envelope with plus."
+          className='contact__image-squares'
+          height="100%"
+        />        
+
+
+
         <div className='row contact__statement'>
-            <div className='col-5'>
+            <div className='col-10 col-sm-10 col-md-5 col-lg-5'>
                 <h2>
                     Let's create something together...
                 </h2>
             </div>
-            <div className='col-6 contact__info'>
+            <div className='
+            col-10 col-sm-10 col-md-8 col-lg-6
+            contact__info'>
                 <h4>
                     Reach Me By Email
                 </h4>
@@ -30,8 +48,10 @@ export default function Contact() {
             </div>
         </div>
 
-        <div className='contact__home-footer'>
-           <p>Copyright Ⓒ 2016-2022. All Rights Reserved.</p> 
+        <div className='row'>
+            <div className='col-10 contact__home-footer'>
+            <p>Copyright Ⓒ 2016-2022. All Rights Reserved.</p> 
+            </div>
         </div>
 
        
