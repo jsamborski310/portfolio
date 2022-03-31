@@ -16,7 +16,17 @@ import React, {useState} from 'react'
                 </div>
                 <p>{overview}</p>
 
-                {isActive && <div className="accordion-content">{description}</div>}
+                {isActive && 
+                
+                    <div className="row accordion-content personalProjects__accordion-content">
+                        <div className='col-6 personalProjects__accordion-description'>
+                            {description}
+                        </div>
+                        <div className='col-6 personalProjects__accordion-image'>
+                            <img src={image} alt={title} width="70%" height="auto"/>
+                        </div>
+                        
+                    </div>}
             </div>
         )
     }

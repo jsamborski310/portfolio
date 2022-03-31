@@ -5,7 +5,7 @@
         "overview": "Loren ipsum dolor et si",
         "description": "Loren ipsum dolor et si.Loren ipsum dolor et si.Loren ipsum dolor et si.",
         "link": "http://github.com",
-        "image": "/images/box-angle.png"
+        "image": "/images/dogeared.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "overview": "Loren ipsum dolor et si",
         "description": "Loren ipsum dolor et si.Loren ipsum dolor et si.Loren ipsum dolor et si.",
         "link": "http://github.com",
-        "image": "/images/box-angle.png"
+        "image": "/images/holidaze.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "overview": "Loren ipsum dolor et si",
         "description": "Loren ipsum dolor et si.Loren ipsum dolor et si.Loren ipsum dolor et si.",
         "link": "http://github.com",
-        "image": "/images/box-angle.png"
+        "image": "/images/techTalk.png"
     },
     {
         "id": 4,
@@ -29,6 +29,6 @@
         "overview": "Loren ipsum dolor et si",
         "description": "Loren ipsum dolor et si.Loren ipsum dolor et si.Loren ipsum dolor et si.",
         "link": "http://github.com",
-        "image": "/images/box-angle.png"
+        "image": "/images/weather.png"
     }
 ]

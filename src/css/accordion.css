@@ -5,6 +5,13 @@
     margin: 30px 0 30px 0;
     padding-left: 40px;
 }
-/* .personalProjects__accordion-title {
-    margin-top: 30px;
-} */
+.personalProjects__accordion-content {
+    background-color: #282828;
+    margin: 30px 0 30px 30px;
+}
+.personalProjects__accordion-description {
+    padding: 30px;
+}
+.personalProjects__accordion-image {
+    margin-top: -20px;
+}
