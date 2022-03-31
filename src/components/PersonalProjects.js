@@ -1,0 +1,39 @@
+import React from 'react'
+import personalProjectList from '../data/personalProjectsList.json'
+import Accordion from './Accordion';
+
+
+export default function PersonalProjects() {
+
+    return (
+    <div className='personalProjects__container'>
+      
+        <div className='personalProjects__section-heading'>
+            <h6>Personal</h6>
+            <h1 className='personalProjects__heading-main'>Projects</h1>
+        </div>
+
+{/* Project Accordion */}
+        
+    <div className='personalProjects__accordion'>
+
+        <div className='accordion>'>
+            {personalProjectList.map(({ id, title, overview, description, link, image }) => (
+                <Accordion 
+                    key={id}
+                    title={title} 
+                    overview={overview} 
+                    description={description}
+                    link={link} 
+                    image={image}                   
+                />
+            ))}
+        </div>
+
+    </div>
+
+{/* End Accordian */}
+
+    </div>
+  )
+}

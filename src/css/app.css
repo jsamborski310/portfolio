@@ -7,6 +7,7 @@
 @import 'sidebar.css';
 @import 'toolkit.css';
 @import 'wordSlide.css';
+@import 'accordion.css';
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -33,6 +34,7 @@ h1 {
   text-transform: lowercase;
 }
 
+/* Button, subtitle font. */
 h3 {
   color:#ffffff;
   font-family: 'Poppins', sans-serif;
@@ -40,6 +42,23 @@ h3 {
   font-size: 1rem;
   text-transform: lowercase;
   letter-spacing: 0.2em;
+}
+/* Project Titles */
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #dfdfdf;
+}
+/* Faded section title */
+h6 {
+  color:#ffffff22;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 11rem;
+  text-transform: lowercase;
+  z-index: -1;
 }
 
 /*  PRIMARY BUTTON */
@@ -102,4 +121,15 @@ h3 {
   text-align: left;
   border: none;
   min-width:140px;
+}
+
+/* MEDIA QUERIES */ 
+
+@media (max-width: 968px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h6 {
+    font-size: 8rem;
+  }
 }
