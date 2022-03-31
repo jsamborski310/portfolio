@@ -18,14 +18,15 @@ export default function PersonalProjects() {
     <div className='personalProjects__accordion'>
 
         <div className='accordion>'>
-            {personalProjectList.map(({ id, title, overview, description, link, image }) => (
+            {personalProjectList.map(({ id, title, overview, description, link, image, siteLink }) => (
                 <Accordion 
                     key={id}
                     title={title} 
                     overview={overview} 
                     description={description}
                     link={link} 
-                    image={image}                   
+                    image={image} 
+                    siteLink={siteLink}                  
                 />
             ))}
         </div>
