@@ -1,0 +1,18 @@
+.header__container {
+    height:100vh;
+}
+.header__section {
+    position:relative;
+}
+.header__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    margin:0;
+}
+.header__title2 {
+    margin-left: 11%;
+    margin-top:-30px;
+}
+.header__title-symbol {
+    font-family:'Times New Roman', Times, serif;
+}
