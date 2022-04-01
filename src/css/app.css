@@ -4,10 +4,10 @@
 @import 'font.css';
 @import 'header.css';
 @import 'personalProjects.css';
-@import 'sidebar.css';
 @import 'toolkit.css';
 @import 'wordSlide.css';
 @import 'accordion.css';
+@import 'sidebar.css';
 
 *, *::before, *::after {
   box-sizing: border-box;

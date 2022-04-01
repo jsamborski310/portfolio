@@ -20,12 +20,12 @@ export default function Contact() {
           height="280px"
         />
 
-        <img
+        {/* <img
           src="/images/abstract-boxes-doublerow.png"
-          alt="Abstract lined envelope with plus."
+          alt="Abstract double row of squares."
           className='contact__image-squares'
           height="100%"
-        />        
+        />         */}
 
 
 
