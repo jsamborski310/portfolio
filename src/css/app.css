@@ -144,3 +144,8 @@ h6 {
     font-size: 8rem;
   }
 }
+@media (max-width:767px) {
+    .borderless-button__container {
+      display:none;
+  }
+}

@@ -43,7 +43,7 @@ export default function Contact() {
                 </h4>
                 <div className='contact__email'>
                     <img src="/icons/email-add-black.png" alt="Email icon with plus sign." height="20px" width="auto"/>
-                    <p>juanita(at)breakthroughwebsite(dot)com</p>
+                    <p>juanita(at)48fourteen(dot)com</p>
                 </div>
             </div>
         </div>

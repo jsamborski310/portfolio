@@ -41,7 +41,7 @@ export default function Header() {
         {/* Bottom Section */}
 
         <div className='row header__skills'>
-            <div className='col-6'>
+            <div className='col-6 order-sm-2 order-md-1 order-lg-1'>
 
             <div className="borderless-button__container">
                 <hr className="borderless-button__line" />
@@ -50,7 +50,9 @@ export default function Header() {
 
 
             </div>
-            <div className='col-6 header__bottom-right'>
+            <div className='
+            col-6 order-sm-1 order-md-2 order-lg-2
+            header__bottom-right'>
                 <div>
                     <h3 className='header__skills-subtitle'>
                         Savvy With
