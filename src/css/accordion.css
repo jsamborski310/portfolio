@@ -39,6 +39,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 50px;
     }
     .accordion__accordion-description {
         padding:30px;
@@ -49,9 +50,6 @@
     }
     .accordion__accordion-image img {
         width:100%;
-    }
-    .accordion__accordion-conten {
-        margin: 30px 0;
     }
  }
  @media (min-width:1500px) {

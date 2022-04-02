@@ -8,6 +8,7 @@
 .header__section {
     display: flex;
     align-items:flex-end;
+    padding-left: 30px;
 }
 .header__title {
     font-family: 'Playfair Display', serif;
@@ -107,6 +108,7 @@
     }
     .header__section {
         margin-bottom: 50px;
+        padding-left:10px;
     }
     .header__title2 {
         margin-left: 120px;

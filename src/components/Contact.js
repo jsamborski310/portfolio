@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className="contact__container">
+    <section className="contact__container">
 
+      {/* Abstract Images */}
       <div className="contact__container-background">
         <img
           src="/images/abstract-gridLines.png"
@@ -20,15 +21,7 @@ export default function Contact() {
           height="280px"
         />
 
-        {/* <img
-          src="/images/abstract-boxes-doublerow.png"
-          alt="Abstract double row of squares."
-          className='contact__image-squares'
-          height="100%"
-        />         */}
-
-
-
+        {/* Contact Section */}
         <div className='row contact__statement'>
             <div className='col-10 col-sm-10 col-md-5 col-lg-5'>
                 <h2>
@@ -48,16 +41,13 @@ export default function Contact() {
             </div>
         </div>
 
+        {/* Footer */}
         <div className='row'>
             <div className='col-10 contact__home-footer'>
             <p>Copyright Ⓒ 2016-2022. All Rights Reserved.</p> 
             </div>
         </div>
 
-       
-
-            
-      
-    </div>
+    </section>
   )
 }

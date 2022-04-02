@@ -37,7 +37,9 @@
 }
 .sidebar__menu-contact-icon {
     width:25px;
-    
+}
+.sidebar__menu-contact-icon:hover {
+    color:#313131;
 }
 .sidebar__menu-title {
     color: #000000;
@@ -53,6 +55,7 @@
     position: fixed;
     top: 0;
 }
+
 @media (max-width:767px) {
     .sidebar__sidebar {
         display: none;

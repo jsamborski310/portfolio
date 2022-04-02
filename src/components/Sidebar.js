@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 export default function Sidebar() {
+
+  // const [isOpen, setIsOpen] = useState(false)
+
   return (
     <div className='sidebar__container'>
 
@@ -31,12 +34,20 @@ export default function Sidebar() {
       {/* Menu Hamburger */}
         <div className='sidebar__menu-icon-section'>
           <h3 className='sidebar__menu-title'>menu</h3>
-          <img
-            src="/images/Menu-Icon.png"
-            alt="Hamburger Menu Icon."
-            className='sidebar__menu-icon'
-            height="25px"
-          />
+
+        
+          
+            <img
+              src="/images/Menu-Icon.png"
+              alt="Hamburger Menu Icon."
+              className='sidebar__menu-icon'
+              height="25px"
+            />
+            
+         
+        
+
+
         </div>
 
       {/* Footer Icons */}
@@ -70,9 +81,13 @@ export default function Sidebar() {
         />                      
 
         </div>
-
       </div>
       
+    {/* OFFSET MENU */}
+
+
+
+      {/*  */}
     </div>
   )
 }

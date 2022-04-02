@@ -79,6 +79,6 @@
         height:auto;
     }
     .toolkit__row {
-        padding: 60px 0;
+        padding: 60px 20px 60px 10px;
     }
 }

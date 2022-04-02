@@ -5,7 +5,6 @@ export default function Header() {
     <section className='header__container'>
 
         {/* Abstract Images */}
-
         <img
           src="/images/abstract-dots-grid.png"
           alt="Grid of dots."
@@ -39,17 +38,15 @@ export default function Header() {
         </div>
 
         {/* Bottom Section */}
-
         <div className='row header__skills'>
             <div className='col-6 order-sm-2 order-md-1 order-lg-1'>
 
-            <div className="borderless-button__container">
-                <hr className="borderless-button__line" />
-                <button className="borderless-button">Scroll</button>
+                <div className="borderless-button__container">
+                    <hr className="borderless-button__line" />
+                    <button className="borderless-button">Scroll</button>
+                </div>
             </div>
 
-
-            </div>
             <div className='
             col-6 order-sm-1 order-md-2 order-lg-2
             header__bottom-right'>
@@ -68,8 +65,6 @@ export default function Header() {
 
         </div>
 
-      
-      
     </section>
   )
 }

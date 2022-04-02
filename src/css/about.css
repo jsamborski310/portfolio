@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     gap:50px;
+    padding-left: 60px;
 }
 
 .primary-button__container {
@@ -23,12 +24,10 @@
 .borderless-button__container {
     transform:rotate(-90deg);
     position:absolute;
-    left: -30px;
+    left: 5%;
     bottom:0;
     margin-bottom:95px;
   }
-
-
 
 /* MEDIA QUERIES */
 
@@ -38,6 +37,7 @@
     }
     .about__row {
         flex-direction: column;
+        padding: 0 20px;
     }
     .primary-button__container {
         justify-content: end;
@@ -55,7 +55,7 @@
         transform-origin: 0 0;
         vertical-align: bottom;  
         margin-bottom:0;
-        left: 0;
+        left: 5%;
      }
      .borderless-button__container:before {
         content: "";

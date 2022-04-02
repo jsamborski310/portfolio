@@ -2,7 +2,9 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="about__container">
+    <section className="about__container">
+
+      {/* Abstract Images */}
       <div className="about__container-background">
         <img
           src="/images/abstract-gridLines.png"
@@ -11,6 +13,8 @@ export default function About() {
           height="auto"
         />
       </div>
+
+      {/* About Content and Image */}
       <div className="container">
         <div className="row about__row">
             <div className="
@@ -48,17 +52,12 @@ export default function About() {
         </div>
       </div>
 
-      <div className="row">   
-      <div className="col-12">     
+      {/* Scroll to Project Button */}
         <div className="borderless-button__container">
             <hr className="borderless-button__line" />
             <button className="borderless-button">Projects</button>
         </div>
-        </div>
-      </div>
-
-
-
-    </div>
+      
+    </section>
   );
 }
