@@ -1,6 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react';
+import PopupMenu from './PopupMenu'
 
 export default function Sidebar() {
+  console.log("something...")
+
+  const [isOpen, setIsOpen] = useState(false);
+ 
+  const togglePopup = () => {
+    console.log("Something", isOpen)
+    setIsOpen(!isOpen);
+  }
 
   return (
     <div className='sidebar__container'>
@@ -33,20 +42,32 @@ export default function Sidebar() {
         <div className='sidebar__menu-icon-section'>
           <h3 className='sidebar__menu-title'>menu</h3>
 
-        
-          
+
+{/* --------- */}
+
+        <button type="button" onClick={togglePopup}>
             <img
               src="/images/Menu-Icon.png"
               alt="Hamburger Menu Icon."
               className='sidebar__menu-icon'
               height="25px"
             />
-            
-         
-        
+        </button>
+<div>
+  
+        {isOpen && <PopupMenu
+          content={<>
+            <b>Design your Popup</b>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button>Test button</button>
+          </>}
+          handleClose={togglePopup}
+        />}
+  </div>
 
+{/* ------------ */}
 
-        </div>
+      </div>
 
       {/* Footer Icons */}
         <div className='sidebar__menu-footer-icons'>

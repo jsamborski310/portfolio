@@ -28,6 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    z-index:50;
     
 }
 .sidebar__menu-footer-icons {
@@ -64,4 +65,10 @@
     border-top: 150px solid #ffffff;
     border-left: 150px solid transparent;
     }
+}
+
+/* TESTING */
+.overlay {
+    height: 100vw;
+    background-color: red;
 }
