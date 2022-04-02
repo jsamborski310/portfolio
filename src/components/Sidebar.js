@@ -1,8 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 export default function Sidebar() {
-
-  // const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div className='sidebar__container'>
@@ -83,11 +81,6 @@ export default function Sidebar() {
         </div>
       </div>
       
-    {/* OFFSET MENU */}
-
-
-
-      {/*  */}
     </div>
   )
 }
