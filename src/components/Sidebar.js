@@ -69,12 +69,12 @@ export default function Sidebar() {
               have chosen. Like, text, images, lists, etc.
               
 
-              <HashLink to="/#home">Link to Hash Fragment</HashLink> 
-              <HashLink to="/#contact">Link to Hash Fragment</HashLink>
+              <HashLink to="/home">Link to Hash Fragment</HashLink> 
+              <HashLink to="/contact">Link to Hash Fragment</HashLink>
 
 
-              <Link to="/#home"><h1>Home</h1></Link>
-              <Link to="/#contact"><h1>Contact</h1></Link>
+              <Link to="/home"><h1>Home</h1></Link>
+              <Link to="/contact"><h1>Contact</h1></Link>
 
             </Offcanvas.Body>
           </Offcanvas>

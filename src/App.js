@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header"
 import About from "./components/About"
 import Toolkit from "./components/Toolkit";
@@ -12,16 +13,16 @@ function App() {
   return (
     <>
 
-      <Router>
+      <HashRouter>
         <Sidebar/>
           <Routes>
-              <Route path="/#home" component={<Header/>} />
-              <Route path="/#about" component={<About/>} />
-              <Route path="/#toolkit" component={<Toolkit/>} />
-              <Route path="/#personalProjects" component={<PersonalProjects/>} />
-              <Route path="/#contact" component={<Contact/>} /> 
+              <Route exact path="/" component={Header} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/toolkit" component={Toolkit} />
+              <Route exact path="/personalProjects" component={PersonalProjects} />
+              <Route exact path="/contact" component={Contact} /> 
           </Routes>
-      </Router>
+      </HashRouter>
 
       <Header/>
       <About/>
