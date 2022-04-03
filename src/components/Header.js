@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <section className='header__container'>
+    <section id="home" className='header__container'>
 
         {/* Abstract Images */}
         <img

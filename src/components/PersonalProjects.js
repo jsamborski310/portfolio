@@ -6,7 +6,7 @@ import Accordion from './Accordion';
 export default function PersonalProjects() {
 
     return (
-    <section className='personalProjects__container'>
+    <section id="personalProjects" className='personalProjects__container'>
       
       {/* Heading */}
         <div className='personalProjects__section-heading'>

@@ -1,7 +1,4 @@
 .sidebar__container {
-    /* height:100vh; */
-    /* width: 65px;
-    background-color: #ffffff; */
     position:relative;
 }
 
@@ -17,6 +14,11 @@
     position: absolute;
     right:30px;
     top: 30px;
+    cursor: pointer;
+    z-index: 50;
+}
+.sidebar__menu-icon-top-right:hover {
+    opacity:50%;
 }
 
 .sidebar__sidebar {
@@ -38,9 +40,10 @@
 }
 .sidebar__menu-contact-icon {
     width:25px;
+    cursor: pointer;
 }
 .sidebar__menu-contact-icon:hover {
-    color:#313131;
+    opacity: 50%;
 }
 .sidebar__menu-title {
     color: #000000;
@@ -56,6 +59,13 @@
     position: fixed;
     top: 0;
 }
+.sidebar__menu-button {
+    background-color: transparent;
+    border:none;
+}
+.sidebar__menu-button:hover {
+    opacity: 50%;
+}
 
 @media (max-width:767px) {
     .sidebar__sidebar {
@@ -67,8 +77,3 @@
     }
 }
 
-/* TESTING */
-.overlay {
-    height: 100vw;
-    background-color: red;
-}

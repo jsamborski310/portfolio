@@ -3,7 +3,7 @@ import toolkitIcons from "../data/toolkit.json";
 
 export default function Toolkit() {
   return (
-    <section className="toolkit__container">
+    <section id="toolkit" className="toolkit__container">
 
       {/* Abstract Images */}
       <div className="toolkit__abstract-image-left-angle">

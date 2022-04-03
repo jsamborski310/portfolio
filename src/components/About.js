@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="about__container">
+    <section id="about" className="about__container">
 
       {/* Abstract Images */}
       <div className="about__container-background">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section className="contact__container">
+    <section id="contact" className="contact__container">
 
       {/* Abstract Images */}
       <div className="contact__container-background">
