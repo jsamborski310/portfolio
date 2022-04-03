@@ -22,7 +22,7 @@ export default function Sidebar() {
         {/* Top Right Menu Button */}
         <button className='sidebar__menu-button' onClick={handleShow}>
           <img
-              src="/images/Menu-Icon.png"
+              src="./images/Menu-Icon.png"
               alt="Hamburger Menu Icon."
               className='sidebar__menu-icon-top-right'
               height="25px"
