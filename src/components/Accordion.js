@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 
-// export default function Accordion() {
-
     const Accordion = ({ id, title, overview, description, link, image, siteLink }) => {
     const [isActive, setIsActive] = useState(false);
 
