@@ -7,7 +7,7 @@ export default function About() {
       {/* Abstract Images */}
       <div className="about__container-background">
         <img
-          src="/images/abstract-gridLines.png"
+          src="./images/abstract-gridLines.png"
           alt="Abstract grid with vertical lines."
           width="400px"
           height="auto"
@@ -38,7 +38,7 @@ export default function About() {
                 order-lg-2 order-md-2 order-sm-1 order-1">
             <div>
                 <img
-                src="/images/abstract-js.png"
+                src="./images/abstract-js.png"
                 alt="Juanita Samborski looking over shoulder at the river."
                 width="400px"
                 height="auto"

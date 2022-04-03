@@ -7,7 +7,7 @@ export default function Contact() {
       {/* Abstract Images */}
       <div className="contact__container-background">
         <img
-          src="/images/abstract-gridLines.png"
+          src="./images/abstract-gridLines.png"
           alt="Abstract grid with vertical lines."
           width="400px"
           height="auto"
@@ -15,7 +15,7 @@ export default function Contact() {
       </div>
 
       <img
-          src="/images/email-add-white.png"
+          src="./images/email-add-white.png"
           alt="Abstract lined envelope with plus."
           className='contact__image-envelope'
           height="280px"
@@ -35,7 +35,7 @@ export default function Contact() {
                     Reach Me By Email
                 </h4>
                 <div className='contact__email'>
-                    <img src="/icons/email-add-black.png" alt="Email icon with plus sign." height="20px" width="auto"/>
+                    <img src="./icons/email-add-black.png" alt="Email icon with plus sign." height="20px" width="auto"/>
                     <p>juanita(at)48fourteen(dot)com</p>
                 </div>
             </div>

@@ -27,12 +27,12 @@ import React, {useState} from 'react'
                             </div>
                             <div>
                                 <a className='accordion__link' href={link}>
-                                    <img src="/icons/github.png" alt="Github icon" width="auto" height="30px" /><p>View on Github</p>
+                                    <img src="./icons/github.png" alt="Github icon" width="auto" height="30px" /><p>View on Github</p>
                                 </a>
                             </div>
                             <div>
                                 <a className='accordion__link' href={siteLink}>
-                                    <img src="/icons/desktop_icon.png" alt="Desktop monitor icon" width="auto" height="25px" /><p>View Live</p>
+                                    <img src="./icons/desktop_icon.png" alt="Desktop monitor icon" width="auto" height="25px" /><p>View Live</p>
                                 </a>
                             </div>                          
 

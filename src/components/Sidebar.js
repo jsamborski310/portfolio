@@ -36,7 +36,7 @@ export default function Sidebar() {
       {/* Logo */}
         <div>
           <img
-            src="/images/logo.png"
+            src="./images/logo.png"
             alt="Juanita Samborski Logo."
             className='sidebar__logo'
             height="60px"
@@ -89,7 +89,7 @@ export default function Sidebar() {
 
         <a href="https://github.com/jsamborski310" rel='noreferrer' target="_blank">
           <img
-            src="/icons/github-black.png"
+            src="./icons/github-black.png"
             alt="Github Icon."
             className='sidebar__menu-contact-icon' 
           />
@@ -97,7 +97,7 @@ export default function Sidebar() {
 
         <a href="https://www.linkedin.com/in/juanita-samborski/" rel='noreferrer' target="_blank">
           <img
-            src="/icons/linkedin-in-brands.png"
+            src="./icons/linkedin-in-brands.png"
             alt="Linkedin Icon."
             className='sidebar__menu-contact-icon'         
           />  
@@ -105,7 +105,7 @@ export default function Sidebar() {
 
         <a href="mailto:juanita@48fourteen.com">
           <img
-            src="/icons/email-add-black.png"
+            src="./icons/email-add-black.png"
             alt="Email Icon."
             className='sidebar__menu-contact-icon'        
           />  
@@ -114,7 +114,7 @@ export default function Sidebar() {
 
         <a href="https://twitter.com/SamborskiUp" rel='noreferrer' target="_blank">
           <img
-            src="/icons/twitter-brands.png"
+            src="./icons/twitter-brands.png"
             alt="Twitter Icon."
             className='sidebar__menu-contact-icon'       
           />     

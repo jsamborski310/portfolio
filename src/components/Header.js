@@ -6,14 +6,14 @@ export default function Header() {
 
         {/* Abstract Images */}
         <img
-          src="/images/abstract-dots-grid.png"
+          src="./images/abstract-dots-grid.png"
           alt="Grid of dots."
           className='header__image-dots-grid'
           height="180px"
         />
 
         <img
-          src="/images/abstract-plus-grid.png"
+          src="./images/abstract-plus-grid.png"
           alt="Grid of plus symbol."
           className='header__image-plus-grid'
           height="180px"

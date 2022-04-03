@@ -8,7 +8,7 @@ export default function Toolkit() {
       {/* Abstract Images */}
       <div className="toolkit__abstract-image-left-angle">
         <img
-          src="/images/box-angle.png"
+          src="./images/box-angle.png"
           alt="Corner lines."
           width="150px"
           height="auto"
@@ -17,7 +17,7 @@ export default function Toolkit() {
 
       <div className="toolkit__abstract-image-right-angle">
         <img
-          src="/images/box-angle-right.png"
+          src="./images/box-angle-right.png"
           alt="Corner lines."
           width="150px"
           height="auto"
@@ -26,7 +26,7 @@ export default function Toolkit() {
 
       <div className="toolkit__abstract-image-box">
         <img
-          src="/images/boxed-angled-lines.png"
+          src="./images/boxed-angled-lines.png"
           alt="Abstract box with repeated lines angled."
           width="400px"
           height="400px"
