@@ -36,7 +36,7 @@ export default function Sidebar() {
       {/* Logo */}
         <div>
           <img
-            src="/images/logo.png"
+            src="./images/logo.png"
             alt="Juanita Samborski Logo."
             className='sidebar__logo'
             height="60px"
@@ -52,7 +52,7 @@ export default function Sidebar() {
 
           <button className='sidebar__menu-button' onClick={handleShow}>
             <img
-              src="/images/Menu-Icon.png"
+              src="./images/Menu-Icon.png"
               alt="Hamburger Menu Icon."
               className='sidebar__menu-icon'
               height="25px"
