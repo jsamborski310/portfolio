@@ -36,7 +36,7 @@ export default function Sidebar() {
       {/* Logo */}
         <div>
           <img
-            src="./images/logo.png"
+            src="/images/logo.png"
             alt="Juanita Samborski Logo."
             className='sidebar__logo'
             height="60px"
@@ -69,12 +69,12 @@ export default function Sidebar() {
               have chosen. Like, text, images, lists, etc.
               
 
-              <HashLink to="/home">Link to Hash Fragment</HashLink> 
-              <HashLink to="/contact">Link to Hash Fragment</HashLink>
+              <HashLink to="/about">About</HashLink> 
+              <HashLink to="/contact">Contact</HashLink>
 
 
-              <Link to="/home"><h1>Home</h1></Link>
-              <Link to="/contact"><h1>Contact</h1></Link>
+              <Link to="/about">About</Link>
+              <Link to="/contact">Contact</Link>
 
             </Offcanvas.Body>
           </Offcanvas>
