@@ -3,10 +3,9 @@ import { Offcanvas } from "react-bootstrap";
 
 export default function Sidebar() {
 
+  // Controls offcanvas menu open/close
   const [show, setShow] = useState(false);
-
-  // const handleCloseLink = () => {setTimeout(setShow(false), 1000)}
-  const handleClose = () => setShow(false);
+  const handleClose = () => setTimeout(() => setShow(false), 1000)
   const handleShow = () => setShow(true);
 
   // --------------------
@@ -48,7 +47,6 @@ export default function Sidebar() {
 
 
       {/* Offset Menu Button Sidebar */}
-
           <button className='sidebar__menu-button' onClick={handleShow}>
             <img
               src="./images/Menu-Icon.png"
@@ -77,15 +75,11 @@ export default function Sidebar() {
                 <li onClick={handleClose}><a href="#toolkit"><h2>Toolkit</h2></a></li>
                 <li onClick={handleClose}><a href="#personalProjects"><h2>Personal Projects</h2></a></li>
                 <li onClick={handleClose}><a href="#contact"><h2>Contact</h2></a></li>
-                {/* <li onClick={handleCloseLink}><a href="#contact"><h2>Contact</h2></a></li> */}
               </ul>
             </nav>
 
             </Offcanvas.Body>
           </Offcanvas>
-
-
-      {/* ------------ */}
 
       </div>
 

@@ -7,7 +7,8 @@
     position: absolute;
     height:90vh;
     width: 90%;
-    opacity: 70%
+    opacity: 70%;
+    z-index: -1;
 }
 .about__row {
     flex-wrap: nowrap;
