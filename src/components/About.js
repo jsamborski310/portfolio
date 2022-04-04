@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="about__container">
+    <section id="about" className="about__container anchor">
 
       {/* Abstract Images */}
       <div className="about__container-background">
@@ -46,7 +46,10 @@ export default function About() {
             </div>
             <div className="primary-button__container">
                 <hr className="primary-button__line" />
-                <button className="primary-button">View Resume</button>
+                <button type="submit" className="primary-button"
+                href="./images/samborski-resume.pdf"
+                target="_blank">
+                  View Resume</button>
             </div>
             </div>
         </div>
