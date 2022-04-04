@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Offcanvas } from "react-bootstrap";
 
 export default function Sidebar() {
@@ -7,6 +7,11 @@ export default function Sidebar() {
   const [show, setShow] = useState(false);
   const handleClose = () => setTimeout(() => setShow(false), 1000)
   const handleShow = () => setShow(true);
+
+  useEffect(()=> {
+    console.log(show)
+
+  }, [show])
 
   // --------------------
 
@@ -18,9 +23,9 @@ export default function Sidebar() {
         <div className='triangle-topright'></div>
 
         {/* Top Right Menu Button */}
-        <button className='sidebar__menu-button' onClick={handleShow}>
+        <button className='sidebar__topright-menu-button' onClick={handleShow}>
           <img
-              src="./images/Menu-Icon.png"
+              src={process.env.PUBLIC_URL + "/images/Menu-Icon.png"}
               alt="Hamburger Menu Icon."
               className='sidebar__menu-icon-top-right'
               height="25px"
@@ -34,7 +39,7 @@ export default function Sidebar() {
       {/* Logo */}
         <div>
           <img
-            src="./images/Logo.png"
+            src={process.env.PUBLIC_URL + "/images/Logo.png"}
             alt="Juanita Samborski Logo."
             className='sidebar__logo'
             height="60px"
@@ -49,7 +54,7 @@ export default function Sidebar() {
       {/* Offset Menu Button Sidebar */}
           <button className='sidebar__menu-button' onClick={handleShow}>
             <img
-              src="./images/Menu-Icon.png"
+              src={process.env.PUBLIC_URL + "/images/Menu-Icon.png"}
               alt="Hamburger Menu Icon."
               className='sidebar__menu-icon'
               height="25px"
@@ -88,7 +93,7 @@ export default function Sidebar() {
 
         <a href="https://github.com/jsamborski310" rel='noreferrer' target="_blank">
           <img
-            src="./icons/github-black.png"
+            src={process.env.PUBLIC_URL + "/icons/github-black.png"}
             alt="Github Icon."
             className='sidebar__menu-contact-icon' 
           />
@@ -96,7 +101,7 @@ export default function Sidebar() {
 
         <a href="https://www.linkedin.com/in/juanita-samborski/" rel='noreferrer' target="_blank">
           <img
-            src="./icons/linkedin-in-brands.png"
+            src={process.env.PUBLIC_URL + "/icons/linkedin-in-brands.png"}
             alt="Linkedin Icon."
             className='sidebar__menu-contact-icon'         
           />  
@@ -104,7 +109,7 @@ export default function Sidebar() {
 
         <a href="mailto:juanita@48fourteen.com">
           <img
-            src="./icons/email-add-black.png"
+            src={process.env.PUBLIC_URL + "/icons/email-add-black.png"}
             alt="Email Icon."
             className='sidebar__menu-contact-icon'        
           />  
@@ -113,7 +118,7 @@ export default function Sidebar() {
 
         <a href="https://twitter.com/SamborskiUp" rel='noreferrer' target="_blank">
           <img
-            src="./icons/twitter-brands.png"
+            src={process.env.PUBLIC_URL + "/icons/twitter-brands.png"}
             alt="Twitter Icon."
             className='sidebar__menu-contact-icon'       
           />     

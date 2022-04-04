@@ -10,13 +10,7 @@
     position: absolute;
     right: 0;
   }
-.sidebar__menu-icon-top-right {
-    position: absolute;
-    right:30px;
-    top: 30px;
-    cursor: pointer;
-    z-index: 60;
-}
+
 .sidebar__menu-icon-top-right:hover {
     opacity:50%;
     z-index:70;
@@ -60,6 +54,16 @@
     position: fixed;
     top: 0;
 }
+.sidebar__topright-menu-button {
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    right:30px;
+    top: 30px;
+    cursor: pointer;
+    z-index: 60;
+}
+
 .sidebar__menu-button {
     background-color: transparent;
     border:none;

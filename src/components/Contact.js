@@ -7,7 +7,7 @@ export default function Contact() {
       {/* Abstract Images */}
       <div className="contact__container-background">
         <img
-          src="./images/abstract-gridLines.png"
+          src={process.env.PUBLIC_URL + "/images/abstract-gridLines.png"}
           alt="Abstract grid with vertical lines."
           width="400px"
           height="auto"
@@ -15,7 +15,7 @@ export default function Contact() {
       </div>
 
       <img
-          src="./images/email-add-white.png"
+          src={process.env.PUBLIC_URL + "/images/email-add-white.png"}
           alt="Abstract lined envelope with plus."
           className='contact__image-envelope'
           height="280px"
@@ -35,7 +35,7 @@ export default function Contact() {
                     Reach Me By Email
                 </h4>
                 <div className='contact__email'>
-                    <img src="./icons/email-add-black.png" alt="Email icon with plus sign." height="20px" width="auto"/>
+                    <img src={process.env.PUBLIC_URL + "/icons/email-add-black.png"} alt="Email icon with plus sign." height="20px" width="auto"/>
                     <p>juanita(at)48fourteen(dot)com</p>
                 </div>
             </div>
@@ -52,7 +52,7 @@ export default function Contact() {
 
                 <a href="https://github.com/jsamborski310" rel='noreferrer' target="_blank">
                   <img
-                    src="./icons/github-black.png"
+                    src={process.env.PUBLIC_URL + "/icons/github-black.png"}
                     alt="Github Icon."
                     className='sidebar__menu-contact-icon' 
                   />
@@ -60,7 +60,7 @@ export default function Contact() {
 
                 <a href="https://www.linkedin.com/in/juanita-samborski/" rel='noreferrer' target="_blank">
                   <img
-                    src="./icons/linkedin-in-brands.png"
+                    src={process.env.PUBLIC_URL + "/icons/linkedin-in-brands.png"}
                     alt="Linkedin Icon."
                     className='sidebar__menu-contact-icon'         
                   />  
@@ -68,7 +68,7 @@ export default function Contact() {
 
                 <a href="mailto:juanita@48fourteen.com">
                   <img
-                    src="./icons/email-add-black.png"
+                    src={process.env.PUBLIC_URL + "/icons/email-add-black.png"}
                     alt="Email Icon."
                     className='sidebar__menu-contact-icon'        
                   />  
@@ -77,7 +77,7 @@ export default function Contact() {
 
                 <a href="https://twitter.com/SamborskiUp" rel='noreferrer' target="_blank">
                   <img
-                    src="./icons/twitter-brands.png"
+                    src={process.env.PUBLIC_URL + "/icons/twitter-brands.png"}
                     alt="Twitter Icon."
                     className='sidebar__menu-contact-icon'       
                   />     
@@ -89,8 +89,6 @@ export default function Contact() {
 
       </div>
       
-          
-
     </section>
   )
 }

@@ -8,7 +8,7 @@ export default function Toolkit() {
       {/* Abstract Images */}
       <div className="toolkit__abstract-image-left-angle">
         <img
-          src="./images/box-angle.png"
+          src={process.env.PUBLIC_URL + "/images/box-angle.png"}
           alt="Corner lines."
           width="150px"
           height="auto"
@@ -17,7 +17,7 @@ export default function Toolkit() {
 
       <div className="toolkit__abstract-image-right-angle">
         <img
-          src="./images/box-angle-right.png"
+          src={process.env.PUBLIC_URL + "/images/box-angle-right.png"}
           alt="Corner lines."
           width="150px"
           height="auto"
@@ -26,7 +26,7 @@ export default function Toolkit() {
 
       <div className="toolkit__abstract-image-box">
         <img
-          src="./images/boxed-angled-lines.png"
+          src={process.env.PUBLIC_URL + "/images/boxed-angled-lines.png"}
           alt="Abstract box with repeated lines angled."
           width="400px"
           height="400px"
@@ -47,7 +47,7 @@ export default function Toolkit() {
         <div className="col col-12 col-lg-7 col-md-7 col-sm-12 toolkit__icon-container">
           {toolkitIcons.map(({ id, altText, image }) => (
             <div key={id}>
-              <img src={image} alt={altText} width="auto" height="50px" />
+              <img src={process.env.PUBLIC_URL + image} alt={altText} width="auto" height="50px" />
             </div>
           ))}
         </div>
