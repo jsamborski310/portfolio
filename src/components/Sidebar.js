@@ -65,11 +65,11 @@ export default function Sidebar() {
            
             <nav>
               <ul className='sidebar__menu-items-list'>
-              <li><a href="/#home"><h2>Home</h2></a></li>
-                <li><a href="/#about"><h2>About</h2></a></li>
-                <li><a href="/#toolkit"><h2>Toolkit</h2></a></li>
-                <li><a href="/#personalProjects"><h2>Personal Projects</h2></a></li>
-                <li><a href="/#contact"><h2>Contact</h2></a></li>
+                <li onClick={handleClose}><a href="#home"><h2>Home</h2></a></li>
+                <li onClick={handleClose}><a href="#about"><h2>About</h2></a></li>
+                <li onClick={handleClose}><a href="#toolkit"><h2>Toolkit</h2></a></li>
+                <li onClick={handleClose}><a href="#personalProjects"><h2>Personal Projects</h2></a></li>
+                <li onClick={handleClose}><a href="#contact"><h2>Contact</h2></a></li>
               </ul>
             </nav>
 
