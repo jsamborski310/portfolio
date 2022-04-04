@@ -46,7 +46,7 @@ export default function About() {
             </div>
             <div className="primary-button__container">
                 <hr className="primary-button__line" />
-                <a href="./images/samborski-resume.pdf" download="Resume" target="_blank">
+                <a href="./images/samborski-resume.pdf" download="Samborski Resume" target="_blank">
                   <button className="primary-button">
                     View Resume
                   </button>

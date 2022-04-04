@@ -35,6 +35,7 @@
 @media (max-width:767px) {
     .about__container {
         height: auto;
+        padding: 70px 50px;
     }
     .about__row {
         flex-direction: column;
@@ -42,7 +43,7 @@
     }
     .primary-button__container {
         justify-content: end;
-        margin-right: -50px;;
+        margin-right: 0;
     }
     .about__container-background img {
         width: 180%;

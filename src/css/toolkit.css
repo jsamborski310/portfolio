@@ -50,9 +50,6 @@
     .toolkit__container {
         justify-content: normal;
     }
-    .toolkit__icon-container {
-        grid-template-columns: repeat(4, auto);
-    }
     .toolkit__container .col {
         width:100%;
     }
@@ -74,11 +71,19 @@
         bottom: 5%;
     }
 }
+@media (min-width: 769px) and (max-width: 968px) {
+    .toolkit__icon-container {
+        grid-template-columns: repeat(4, auto);
+    }
+}
 @media (max-width:768px) {
     .toolkit__container {
         height:auto;
     }
     .toolkit__row {
         padding: 60px 20px 60px 10px;
+    }
+    .toolkit__icon-container {
+        grid-template-columns: repeat(3, auto);
     }
 }
