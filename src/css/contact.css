@@ -60,6 +60,11 @@
 .contact__home-footer p {
     color: #000000;
 }
+.contact__menu-footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 /* MEDIA QUERIES */
 
@@ -77,6 +82,6 @@
     }
     .contact__home-footer {
         flex-direction: column;
-        justify-content: end;
+        align-items: end;
     }
 }
