@@ -59,7 +59,13 @@ export default function Sidebar() {
 
         {/* Offset Menu */}
           <Offcanvas show={show} onHide={handleClose} className="sidebar__offcanvas-start">
-            <Offcanvas.Header closeButton>
+            <Offcanvas.Header>
+
+                <div onClick={handleClose} className="borderless-button__container sidebar__close-menu">
+                    <hr className="borderless-button__line" />
+                    <button className="borderless-button">Close</button>
+                </div>
+
             </Offcanvas.Header>
             <Offcanvas.Body>
            

@@ -75,6 +75,16 @@
 .sidebar__menu-items-list {
     list-style-type: none;
 }
+.sidebar__close-menu {
+    top:20px;
+    right: -40px;
+    left:auto;
+    bottom:auto;
+    transform: rotate(0deg);
+}
+.sidebar__close-menu:hover {
+    opacity: 60%;
+}
 
 @media (max-width:767px) {
     .sidebar__sidebar {
