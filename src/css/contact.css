@@ -52,10 +52,13 @@
     bottom:0;
     width: 90%;
     right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
 }
 .contact__home-footer p {
     color: #000000;
-    padding: 10px 30px 0px;
 }
 
 /* MEDIA QUERIES */
@@ -71,5 +74,9 @@
     .contact__info {
         margin-left:0;
         padding: 30px 30px;
+    }
+    .contact__home-footer {
+        flex-direction: column;
+        justify-content: end;
     }
 }

@@ -44,9 +44,52 @@ export default function Contact() {
         {/* Footer */}
         <div className='row'>
             <div className='col-10 contact__home-footer'>
-            <p>Copyright Ⓒ 2016-2022. All Rights Reserved.</p> 
-            </div>
+             
+              <p>Copyright Ⓒ 2016-2022. All Rights Reserved.</p> 
+           
+    
+              <div className='contact__menu-footer-icons'>
+
+                <a href="https://github.com/jsamborski310" rel='noreferrer' target="_blank">
+                  <img
+                    src="./icons/github-black.png"
+                    alt="Github Icon."
+                    className='sidebar__menu-contact-icon' 
+                  />
+                </a>
+
+                <a href="https://www.linkedin.com/in/juanita-samborski/" rel='noreferrer' target="_blank">
+                  <img
+                    src="./icons/linkedin-in-brands.png"
+                    alt="Linkedin Icon."
+                    className='sidebar__menu-contact-icon'         
+                  />  
+                </a>
+
+                <a href="mailto:juanita@48fourteen.com">
+                  <img
+                    src="./icons/email-add-black.png"
+                    alt="Email Icon."
+                    className='sidebar__menu-contact-icon'        
+                  />  
+                </a> 
+
+
+                <a href="https://twitter.com/SamborskiUp" rel='noreferrer' target="_blank">
+                  <img
+                    src="./icons/twitter-brands.png"
+                    alt="Twitter Icon."
+                    className='sidebar__menu-contact-icon'       
+                  />     
+                </a>                 
+
+              </div>
+              
         </div>
+
+      </div>
+      
+          
 
     </section>
   )
