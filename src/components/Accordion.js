@@ -26,12 +26,12 @@ import React, {useState} from 'react'
                                 <p>{description}</p>
                             </div>
                             <div>
-                                <a className='accordion__link' href={link} target="_blank" rel='noreferrer'>
+                                <a className='accordion__link' href={link} rel='noreferrer' target="_blank">
                                     <img src={process.env.PUBLIC_URL + "/icons/github.png"} alt="Github icon" width="auto" height="30px" /><p>View on Github</p>
                                 </a>
                             </div>
                             <div>
-                                <a className='accordion__link' href={siteLink} target="_blank" rel='noreferrer'>
+                                <a className='accordion__link' href={siteLink} rel='noreferrer' target="_blank">
                                     <img src={process.env.PUBLIC_URL + "/icons/desktop_icon.png"}
                                     alt="Desktop monitor icon" width="auto" height="25px" /><p>View Live</p>
                                 </a>
