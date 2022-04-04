@@ -66,6 +66,15 @@
 .sidebar__menu-button:hover {
     opacity: 50%;
 }
+.sidebar__offcanvas-start {
+    width: calc(100% - 65px);
+    right:0;
+    left:auto;
+    background-color:black;
+}
+.sidebar__menu-items-list {
+    list-style-type: none;
+}
 
 @media (max-width:767px) {
     .sidebar__sidebar {

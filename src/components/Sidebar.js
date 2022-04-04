@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import { Offcanvas } from "react-bootstrap";
-import { HashLink } from 'react-router-hash-link';
-import {NavLink as Link} from "react-router-dom";
 
 export default function Sidebar() {
 
@@ -36,7 +34,7 @@ export default function Sidebar() {
       {/* Logo */}
         <div>
           <img
-            src="./images/logo.png"
+            src="./images/Logo.png"
             alt="Juanita Samborski Logo."
             className='sidebar__logo'
             height="60px"
@@ -60,21 +58,20 @@ export default function Sidebar() {
           </button>
 
         {/* Offset Menu */}
-          <Offcanvas show={show} onHide={handleClose}>
+          <Offcanvas show={show} onHide={handleClose} className="sidebar__offcanvas-start">
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Offcanvas</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              Some text as placeholder. In real life you can have the elements you
-              have chosen. Like, text, images, lists, etc.
-              
-
-              <HashLink to="/about">About</HashLink> 
-              <HashLink to="/contact">Contact</HashLink>
-
-
-              <Link to="/about">About</Link>
-              <Link to="/contact">Contact</Link>
+           
+            <nav>
+              <ul className='sidebar__menu-items-list'>
+              <li><a href="/#home"><h2>Home</h2></a></li>
+                <li><a href="/#about"><h2>About</h2></a></li>
+                <li><a href="/#toolkit"><h2>Toolkit</h2></a></li>
+                <li><a href="/#personalProjects"><h2>Personal Projects</h2></a></li>
+                <li><a href="/#contact"><h2>Contact</h2></a></li>
+              </ul>
+            </nav>
 
             </Offcanvas.Body>
           </Offcanvas>
