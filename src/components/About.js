@@ -46,10 +46,12 @@ export default function About() {
             </div>
             <div className="primary-button__container">
                 <hr className="primary-button__line" />
-                <button type="submit" className="primary-button"
-                href="./images/samborski-resume.pdf"
-                target="_blank">
-                  View Resume</button>
+                <a href="/images/samborski-resume.pdf" download="Resume" target="_blank">
+                {/* <a className ="primary-button" download=''> */}
+                  <button className="primary-button">
+                    View Resume
+                  </button>
+                </a>
             </div>
             </div>
         </div>

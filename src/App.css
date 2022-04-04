@@ -100,6 +100,8 @@ h6 {
   padding: 10px 15px;
   min-width:180px;
   text-align: left;
+  z-index: 40;
+  cursor: pointer!important;
 }
 .primary-button:hover {
   background-color: #f8f9fa50;
