@@ -91,13 +91,21 @@
     opacity: 60%;
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
     .sidebar__sidebar {
         display: none;
     }
     .triangle-topright {
     border-top: 150px solid #ffffff;
     border-left: 150px solid transparent;
+    }
+    .sidebar__close-menu {
+        display:flex!important;
+        margin-top:-50px;
+        margin-bottom: -50px;
+    }
+    .offcanvas-header {
+        justify-content: flex-start;
     }
 }
 

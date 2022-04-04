@@ -12,9 +12,11 @@ This single page application, built in React, provides information about my skil
 
 ## Description
 
-Prior to embarking on building my first React application, I laid out the design in Adobe XD. The portfolio provides future potential employers with an overview about myself, the tools I'm skilled with, and applications I have built.  
+Prior to embarking on building my first React application, I laid out the design in Adobe XD. The portfolio provides future potential employers with an overview about myself, the tools I'm skilled with, and applications I have built, and various way on how to reach me. 
 
-The UI is clean, polished, and the User will be able to navigate the site with ease.
+Using the Bootstrap framework and CSS, I implemented the design. There are a few custom elements I incorporated: offcanvas menu and accordion. 
+
+The UI is clean, polished, and the User will be able to navigate the site with ease. I have also ensured that it is mobile responsive.
 
 This application was built using the following:
 
@@ -33,11 +35,11 @@ This application is covered under the MIT license.
 
 Preview screens of the application. 
 
-#### BROWSER APPLICATION
-![Screen shot of the notes application from the browser.](/client/src/images/quick-notes-browser.png)
+#### PORTFOLIO
+![Screen shot of the single page portfolio.](public/images/single-page-portfolio.png)
 
-#### DESKTOP APPLICATION
-![Screen shot of the notes application from the desktop.](/client/src/images/quick-notes-desktop.png)
+#### MOBILE VIEW
+![Screen shot of the notes application from the desktop.](public/images/Samborski-Portfolio-Mobile.png)
 
 
 ## Preview
